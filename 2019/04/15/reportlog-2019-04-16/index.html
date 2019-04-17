@@ -96,25 +96,29 @@
 
 
 
-  <meta name="description" content="自己搭个小监控起因搭了个VPS，隔了段时间发现ssh错误日志有点多。 就想怎么看一下都是谁天天搞事情。 /var/log/auth.log -rw-r----- 1 root adm 185827 2月   2 11:09 /var/log/auth.log /var/log/btmp -rw-rw---- 1 root utmp 271488 2月   2 11:09 /var/log/btmp">
-<meta name="keywords" content="supervisor,轮子">
+  <meta name="description" content="reportlog-2019-04-16lines TOP USERSroot        15739admin         228teamspea       54oracle         42test           40guest          40nagios         39minecraf       38git            34postgres">
+<meta name="keywords" content="ssh">
 <meta property="og:type" content="article">
-<meta property="og:title" content="自己搭个小监控">
-<meta property="og:url" content="https://shadow0x00.github.io/2019/02/02/自己搭个小监控/index.html">
+<meta property="og:title" content="reportlog-2019-04-16">
+<meta property="og:url" content="https://shadow0x00.github.io/2019/04/15/reportlog-2019-04-16/index.html">
 <meta property="og:site_name" content="ShadowLapin">
-<meta property="og:description" content="自己搭个小监控起因搭了个VPS，隔了段时间发现ssh错误日志有点多。 就想怎么看一下都是谁天天搞事情。 /var/log/auth.log -rw-r----- 1 root adm 185827 2月   2 11:09 /var/log/auth.log /var/log/btmp -rw-rw---- 1 root utmp 271488 2月   2 11:09 /var/log/btmp">
+<meta property="og:description" content="reportlog-2019-04-16lines TOP USERSroot        15739admin         228teamspea       54oracle         42test           40guest          40nagios         39minecraf       38git            34postgres">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-02-02T11:14:30.012Z">
+<meta property="og:image" content="https://shadow0x00.github.io/2019/04/15/reportlog-2019-04-16/lines-2019-04-16.png">
+<meta property="og:image" content="https://shadow0x00.github.io/2019/04/15/reportlog-2019-04-16/topuser-2019-04-16.png">
+<meta property="og:image" content="https://shadow0x00.github.io/2019/04/15/reportlog-2019-04-16/topfrom-2019-04-16.png">
+<meta property="og:updated_time" content="2019-04-16T06:25:05.994Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="自己搭个小监控">
-<meta name="twitter:description" content="自己搭个小监控起因搭了个VPS，隔了段时间发现ssh错误日志有点多。 就想怎么看一下都是谁天天搞事情。 /var/log/auth.log -rw-r----- 1 root adm 185827 2月   2 11:09 /var/log/auth.log /var/log/btmp -rw-rw---- 1 root utmp 271488 2月   2 11:09 /var/log/btmp">
+<meta name="twitter:title" content="reportlog-2019-04-16">
+<meta name="twitter:description" content="reportlog-2019-04-16lines TOP USERSroot        15739admin         228teamspea       54oracle         42test           40guest          40nagios         39minecraf       38git            34postgres">
+<meta name="twitter:image" content="https://shadow0x00.github.io/2019/04/15/reportlog-2019-04-16/lines-2019-04-16.png">
 
 
 
 
 
 
-  <link rel="canonical" href="https://shadow0x00.github.io/2019/02/02/自己搭个小监控/">
+  <link rel="canonical" href="https://shadow0x00.github.io/2019/04/15/reportlog-2019-04-16/">
 
 
 
@@ -124,7 +128,7 @@
   };
 </script>
 
-  <title>自己搭个小监控 | ShadowLapin</title>
+  <title>reportlog-2019-04-16 | ShadowLapin</title>
   
 
 
@@ -373,7 +377,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://shadow0x00.github.io/2019/02/02/自己搭个小监控/">
+    <link itemprop="mainEntityOfPage" href="https://shadow0x00.github.io/2019/04/15/reportlog-2019-04-16/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ShadowLapin">
@@ -390,7 +394,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">自己搭个小监控
+          <h1 class="post-title" itemprop="name headline">reportlog-2019-04-16
 
               
             
@@ -416,7 +420,7 @@
                 
               
 
-              <time title="Created: 2019-02-02 11:09:31 / Modified: 19:14:30" itemprop="dateCreated datePublished" datetime="2019-02-02T11:09:31+08:00">2019-02-02</time>
+              <time title="Created: 2019-04-16 06:25:04 / Modified: 14:25:05" itemprop="dateCreated datePublished" datetime="2019-04-16T06:25:04+08:00">2019-04-16</time>
             
 
             
@@ -426,6 +430,24 @@
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/whocoming/" itemprop="url" rel="index"><span itemprop="name">whocoming</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -455,42 +477,9 @@
       
 
       
-        <h1 id="自己搭个小监控"><a href="#自己搭个小监控" class="headerlink" title="自己搭个小监控"></a>自己搭个小监控</h1><h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>搭了个VPS，隔了段时间发现ssh错误日志有点多。 就想怎么看一下都是谁天天搞事情。</p>
-<p>/var/log/auth.log</p>
-<pre><code>-rw-r----- 1 root adm 185827 2月   2 11:09 /var/log/auth.log
-</code></pre><p>/var/log/btmp</p>
-<pre><code>-rw-rw---- 1 root utmp 271488 2月   2 11:09 /var/log/btmp
-</code></pre><h2 id="架构"><a href="#架构" class="headerlink" title="架构"></a>架构</h2><p>VPS买的是最便宜的单CPU，空间就20GB。所以没有能力搞个大架构T_T，搭个ES基本就做不了别的了。只能自己利用系统功能小搞。</p>
-<p>1、 auth.log日志最全，但是正则匹配太复杂，也耗时间。平衡再三，最后用lastb机制把错误登陆日志搞出，在用sed和正则匹配想要的字段生成文件。<br>2、 利用logrotate每次滚动执行命令，拿出日志。<br>3、 利用python脚本，pandas库，产生md文件和图片，生成静态blog文档。<br>4、 用hexo做博客，corntab每天自动执行hexo上传blog到github。</p>
-<h2 id="lastb"><a href="#lastb" class="headerlink" title="lastb"></a>lastb</h2><p>语法: lastb [-adRx][-f &lt;记录文件&gt;][-n &lt;显示列数&gt;][帐号名称…][终端机编号…]</p>
-<p>参数说明：</p>
-<pre><code>-a 　把从何处登入系统的主机名称或IP地址显示在最后一行。
--d 　将IP地址转换成主机名称。
--f&lt;记录文件&gt; 　指定记录文件。
--n&lt;显示列数&gt;或-&lt;显示列数&gt; 　设置列出名单的显示列数。
--R 　不显示登入系统的主机名称或IP地址。
--x 　显示系统关机，重新开机，以及执行等级的改变等信息。
-</code></pre><h2 id="sed"><a href="#sed" class="headerlink" title="sed"></a>sed</h2><pre><code>lastb -F -f /var/log/btmpdays/btmp.1 | sed -r &apos;s/(.+)\s+ssh:notty\s+(\S+)\s+(.*)-.*/\1---&gt;\2---&gt;\3/g&apos;|sed &apos;$d&apos;|sed &apos;/^$/d&apos; &gt; /tmp/btmp.log
-</code></pre><h3 id="制作分隔符"><a href="#制作分隔符" class="headerlink" title="制作分隔符"></a>制作分隔符</h3><pre><code>分隔符真的比较讨厌，本来直接用空格做分隔，发现用户名竟然能带空格,最后就用了 &apos;---&gt;&apos; 加多次分隔的方式把日志格式化了。
-</code></pre><h3 id="去掉无用信息"><a href="#去掉无用信息" class="headerlink" title="去掉无用信息"></a>去掉无用信息</h3><p>btmp日志会多出两行，一个空行和一个btmp信息行，需要去掉。<br>    sed ‘$d’|sed ‘/^$/d’</p>
-<h3 id="日志位置"><a href="#日志位置" class="headerlink" title="日志位置"></a>日志位置</h3><p>这个日志是中间文件，其实没啥用处，就放到/tmp里面吧。</p>
-<h2 id="logrotate"><a href="#logrotate" class="headerlink" title="logrotate"></a>logrotate</h2><pre><code>/var/log/btmp {
-    missingok
-    daily
-    create 0660 root utmp
-    rotate 7
-    olddir /var/log/btmpdays/
-    sharedscripts
-    postrotate
-        lastb -F -f /var/log/btmpdays/btmp.1 | sed -r &apos;s/(.+)\s+ssh:notty\s+(\S+)\s+(.*)-.*/\1---&gt;\2---&gt;\3/g&apos;|sed &apos;$d&apos;|sed &apos;/^$/d&apos; &gt; /tmp/btmp.log
-        python /var/log/btmpdays/totext.py
-    endscript
-}
-### 执行脚本
-利用postrotate机制执行命令，需要说的是写上sharedscripts让脚本只执行一次。
-</code></pre><h2 id="python、pandas"><a href="#python、pandas" class="headerlink" title="python、pandas"></a>python、pandas</h2><pre><code>pandas在linux命令行产生图片有个大坑。需要修改配置文件：Linux中，创建文件 ~/.config/matplotlib/matplotlibrc， （其中，~/.config/matplotlib/是配置文件matplotlibrc的路径）修改一下 backend : Agg。
-</code></pre><h2 id="corntab"><a href="#corntab" class="headerlink" title="corntab"></a>corntab</h2><p>用户hexo每天执行hexo上传命令</p>
-<h2 id="mysql-文件导入"><a href="#mysql-文件导入" class="headerlink" title="mysql 文件导入"></a>mysql 文件导入</h2><p>一开始想用脚本搞定文件入库，发现日期字段有坑，于是绕过。利用pandas的to_sql，上传数据入库。<br>    dfdb.to_sql(‘btmplog’,engine,if_exists=’append’, index= False)</p>
+        <h1 id="reportlog-2019-04-16"><a href="#reportlog-2019-04-16" class="headerlink" title="reportlog-2019-04-16"></a>reportlog-2019-04-16</h1><h2 id="lines"><a href="#lines" class="headerlink" title="lines"></a>lines</h2><p><img src="/2019/04/15/reportlog-2019-04-16/lines-2019-04-16.png" alt="lines"></p>
+<h2 id="TOP-USERS"><a href="#TOP-USERS" class="headerlink" title="TOP USERS"></a>TOP USERS</h2><p><img src="/2019/04/15/reportlog-2019-04-16/topuser-2019-04-16.png" alt="top users"><br>root        15739<br>admin         228<br>teamspea       54<br>oracle         42<br>test           40<br>guest          40<br>nagios         39<br>minecraf       38<br>git            34<br>postgres       32<br>ftpuser        31<br>ubuntu         28<br>user           26<br>hadoop         26<br>tomcat         24<br>www            20<br>weblogic       20<br>demo           20<br>odoo           18<br>vps            18<br>Name: user, dtype: int64</p>
+<h2 id="TOP-IPS"><a href="#TOP-IPS" class="headerlink" title="TOP IPS"></a>TOP IPS</h2><p><img src="/2019/04/15/reportlog-2019-04-16/topfrom-2019-04-16.png" alt="top from"><br>58.242.82.6         15557<br>193.201.224.214       421<br>205.252.40.168         75<br>218.92.0.147           72<br>103.79.90.72           30<br>192.81.215.176         28<br>101.251.197.238        20<br>ip4da111a0.direc       20<br>202.162.208.202        20<br>92.50.249.166          20<br>119.27.175.249         20<br>45.55.184.78           20<br>165.227.69.39          20<br>134.175.39.108         20<br>14.142.57.66           20<br>20.ip-51-75-162.       20<br>202.51.110.214         20<br>ks3279282.kimsuf       20<br>31.154.16.105          20<br>94.207.24.30           20<br>Name: addr, dtype: int64</p>
 
       
     </div>
@@ -524,7 +513,7 @@
   <li class="post-copyright-link">
     <strong>Post link: </strong>
     
-    <a href="https://shadow0x00.github.io/2019/02/02/自己搭个小监控/" title="自己搭个小监控">https://shadow0x00.github.io/2019/02/02/自己搭个小监控/</a>
+    <a href="https://shadow0x00.github.io/2019/04/15/reportlog-2019-04-16/" title="reportlog-2019-04-16">https://shadow0x00.github.io/2019/04/15/reportlog-2019-04-16/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.</li>
@@ -537,9 +526,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/supervisor/" rel="tag"># supervisor</a>
-          
-            <a href="/tags/轮子/" rel="tag"># 轮子</a>
+            <a href="/tags/ssh/" rel="tag"># ssh</a>
           
         </div>
       
@@ -552,8 +539,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/02/02/reportlog-2019-02-02/" rel="next" title="reportlog-2019-02-02">
-                <i class="fa fa-chevron-left"></i> reportlog-2019-02-02
+              <a href="/2019/04/14/reportlog-2019-04-15/" rel="next" title="reportlog-2019-04-15">
+                <i class="fa fa-chevron-left"></i> reportlog-2019-04-15
               </a>
             
           </div>
@@ -561,10 +548,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/02/02/reportlog-2019-02-03/" rel="prev" title="reportlog-2019-02-03">
-                reportlog-2019-02-03 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -714,7 +697,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#自己搭个小监控"><span class="nav-number">1.</span> <span class="nav-text">自己搭个小监控</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#起因"><span class="nav-number">1.1.</span> <span class="nav-text">起因</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#架构"><span class="nav-number">1.2.</span> <span class="nav-text">架构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#lastb"><span class="nav-number">1.3.</span> <span class="nav-text">lastb</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sed"><span class="nav-number">1.4.</span> <span class="nav-text">sed</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#制作分隔符"><span class="nav-number">1.4.1.</span> <span class="nav-text">制作分隔符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#去掉无用信息"><span class="nav-number">1.4.2.</span> <span class="nav-text">去掉无用信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#日志位置"><span class="nav-number">1.4.3.</span> <span class="nav-text">日志位置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#logrotate"><span class="nav-number">1.5.</span> <span class="nav-text">logrotate</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python、pandas"><span class="nav-number">1.6.</span> <span class="nav-text">python、pandas</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#corntab"><span class="nav-number">1.7.</span> <span class="nav-text">corntab</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#mysql-文件导入"><span class="nav-number">1.8.</span> <span class="nav-text">mysql 文件导入</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#reportlog-2019-04-16"><span class="nav-number">1.</span> <span class="nav-text">reportlog-2019-04-16</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#lines"><span class="nav-number">1.1.</span> <span class="nav-text">lines</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TOP-USERS"><span class="nav-number">1.2.</span> <span class="nav-text">TOP USERS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TOP-IPS"><span class="nav-number">1.3.</span> <span class="nav-text">TOP IPS</span></a></li></ol></li></ol></div>
             
 
           </div>
